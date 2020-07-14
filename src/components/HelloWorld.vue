@@ -55,11 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <user-detail></user-detail>
-                <user-edit></user-edit>
 
-            </div>
         </div>
 
 
@@ -71,15 +67,13 @@
     import User1 from "@/components/User1";
     import Chart from "@/components/Chart";
     import DonutChart from "@/components/DonutChart";
-    import UserDetail from "@/components/UserDetail";
-    import UserEdit from "@/components/UserEdit";
+
 
 
     export default {
         name: 'HelloWorld',
         components: {
-            UserEdit,
-            UserDetail,
+
 
             User1,
             Chart,
